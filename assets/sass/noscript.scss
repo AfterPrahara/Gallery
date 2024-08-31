@@ -1,0 +1,22 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
+
+
+
+/* Main */
+
+	#main {
+		opacity: 1 !important;
+		overflow-x: auto !important;
+
+		.item {
+			&.thumb {
+				img {
+					opacity: 1 !important;
+				}
+			}
+		}
+	}
